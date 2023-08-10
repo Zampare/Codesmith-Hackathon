@@ -89,8 +89,10 @@ function spreadFire() {
     console.log('hi');
     document.body.style.backgroundImage =
       'url(https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn)';
+    if(document.querySelector("ytd-app") !== null){document.querySelector("ytd-app").style.backgroundImage = 'url(https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn)';
   }
-  setTimeout(spreadFire, 2500);
+  }
+  setTimeout(spreadFire, 1500);
 }
 
 // x_pos+'px';
