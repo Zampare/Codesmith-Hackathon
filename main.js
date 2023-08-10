@@ -89,6 +89,9 @@ function spreadFire() {
     console.log('hi');
     document.body.style.backgroundImage =
       'url(https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn)';
+      // const sound = document.createElement('audio')
+      // sound.setAttribute("src", )
+      // document.body.appendChild(sound)
     if(document.querySelector("ytd-app") !== null){document.querySelector("ytd-app").style.backgroundImage = 'url(https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn)';
   }
   }

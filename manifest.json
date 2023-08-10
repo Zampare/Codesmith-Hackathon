@@ -5,14 +5,16 @@
   "manifest_version": 3,
   "web_accessible_resources": [
     {
-      "resources": ["fire.webp"],
+      "resources": ["fire.webp", "logo.png", "fireLogo.jpg"],
       "matches": ["<all_urls>"]
     }
   ],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["main.js"]
+      "js": ["main.js"],
+      "css": ["style.css"]
     }
   ]
+
 }
