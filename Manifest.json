@@ -6,7 +6,8 @@
     "manifest_version":2,
     "web_accessible_resources": [
       "fire.webp",
-      "water.jpg"
+      "water.jpg",
+      "dog.jpg"
     ],
     "content_scripts": [
         {
