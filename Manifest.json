@@ -12,7 +12,9 @@
         {
          
           "matches": ["<all_urls>"],
-          "js": ["main.js"]
+          "js": ["main.js"],
+          "css": ["style.css"]
+
         }
       ]
     }
